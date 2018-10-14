@@ -98,6 +98,40 @@ here userName is the userName that is defined in the HTML file. By this statemen
   echo "</br> 5 * 2 = " . (5*2);
   echo "</br> 5 / 2 = " . (dataType) (5/2); //dataType is the required data type in which you want to get the output of (5/2)
   echo "</br> 5 % 2 = " . (5%2) . "</br>";
+  /*
+  	Output:
+  		5 + 2 = 7
+  		5 - 2 = 3
+  		5 * 2 = 10
+  		5 / 2 = 2	// if dataType is integer
+  		5 % 2 = 1
+  */
   ~~~
 
-change
+  #### Shortcuts
+
+  ~~~php
+  $randNum = 5;
+  echo $randNum += 10 . "</br>";
+  echo $randNum -= 10 . "</br>";
+  echo $randNum *= 10 . "</br>";
+  echo $randNum /= 10 . "</br>";
+  echo $randNum %= 10 . "</br>";
+  /*
+  	Output:
+  		15 			// 5 + 10
+  		-5			// 5 - 10
+  		50			// 5 * 10
+  		0.5			// 5 / 10
+  		0			// 5 % 10
+  */
+  //Here randNum is asigned a new value in every statement.
+  ~~~
+
+  ### Incrementing
+
+  ~~~php
+  
+  ~~~
+
+
