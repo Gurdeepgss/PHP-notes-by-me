@@ -63,7 +63,7 @@ here userName is the userName that is defined in the HTML file. By this statemen
   */
   ~~~
 
-  ### Multiple Line Strings
+ ### Multiple Line Strings
 
   ~~~php
   //define here whatever you want not to go in the string.(didn't really know what that mean now).
@@ -79,7 +79,7 @@ here userName is the userName that is defined in the HTML file. By this statemen
   */
   ~~~
 
-  ### Constants
+ ### Constants
 
   ~~~php 
   define('PI' , 3.14159);
@@ -90,7 +90,7 @@ here userName is the userName that is defined in the HTML file. By this statemen
   */
   ~~~
 
-  ### Basic Arithmetic
+ ### Basic Arithmetic
 
   ~~~php
   echo "</br> 5 + 2 = " . (5+2);
@@ -108,7 +108,7 @@ here userName is the userName that is defined in the HTML file. By this statemen
   */
   ~~~
 
-  #### Shortcuts
+ #### Shortcuts
 
   ~~~php
   $randNum = 5;
@@ -128,10 +128,24 @@ here userName is the userName that is defined in the HTML file. By this statemen
   //Here randNum is asigned a new value in every statement.
   ~~~
 
-  ### Incrementing
+ ### Incrementing
 
   ~~~php
-  
+  $randNum = 5 ;
+  echo "++randNum = " . ++randNum . "</br>";
+  echo "randNum++ = " . randNum++ . "</br>";
+  echo $randNum ;
+  /*
+  	Output:
+  		6		//++randNum  incremented and printed
+  		6		//randNum++  printed and incremented
+  		7		//$randNum	 printed
+  */
   ~~~
 
-djhb
+### Referencing or Pointing to a Variable
+
+~~~php
+
+~~~
+
